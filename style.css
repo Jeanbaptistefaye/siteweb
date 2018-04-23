@@ -1,0 +1,62 @@
+  .entet{
+        
+        width: 100%;
+        height: 150px;
+        background-image: url("1.png");
+        background-repeat: no-repeat;
+        background-position: top right;
+        background-color: blue
+        color: white
+        font-size: large;
+        line-height: 200px;
+        text-align: center;
+        font-family: cursive;
+        border-radius: 3px;
+
+ }
+
+
+
+
+
+
+body{
+	color: black;
+	background-image: url("1.jpg");
+	background-repeat: no-repeat;
+	
+}
+
+header nav{
+	color: white;
+}
+header nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header nav ul li{
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 150px;
+	height: 50px;
+	background-color: red;
+	line-height: 40px;
+	text-align: center;
+	}
+	header nav ul li a{
+		display: block;
+	}
+header nav ul li a:hover{
+   background-color: blue;
+   opacity: 0,5;
+}
+header nav ul li ul li{
+	display: none;
+}
+header nav ul li:hover ul li{
+	display: block;
+}
+
+	 
